@@ -6,22 +6,18 @@
 
 赋予脚本执行权限
 
-```chmod +x exec.sh
-```
+    chmod +x exec.sh
 
 将exec.sh拷贝到指定目录， 例如：
 
-```cp exec.sh ~/Docunments/runScript
-```
+    cp exec.sh ~/Docunments/runScript
 
 编辑ohmyzsh配置文件
 
-```nano ~/.zshrc
-```
+    nano ~/.zshrc
 
 在配置文件最后添加命令：
 
-```alias setgo="source ~/Documents/runScript/exec.sh"
-```
+    alias setgo="source ~/Documents/runScript/exec.sh"
 
 配置完成，在任意目录执行即可将当前环境变量添加$GOPATH
